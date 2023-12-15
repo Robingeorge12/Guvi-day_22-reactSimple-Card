@@ -17,9 +17,14 @@
     margin: 0px 0px 0px -30px;
 }
 .but{
-    /* border-radius:60px ; */
+    border-radius:60px !important ;
+    margin: 15px 0px;
 }
-
+.un{
+    width: 120% !important;
+    /* margin: auto; */
+    margin: 0px -20px 20px -20px;
+}
 @media (min-width: 576px) {
     .but{
         /* width: 100% !important; */

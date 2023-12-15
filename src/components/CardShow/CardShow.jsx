@@ -78,14 +78,23 @@ function CardShow() {
             >
               <div className="card-body">
                 <p className="">
+                 
                   <small className="card-subtitle text-muted">
                     {" "}
                     {el.title}
                   </small>
                 </p>
-                <h6 className="card-title mb-2 display-6">
+
+
+                <h6 className="card-title mb-2 display-5">
+                
                   ${el.head}/{el.month}
+                  
                 </h6>
+           
+           
+                <hr className="w-120 un" />
+{/* <underline className="un"></underline> */}
 
                 <p className="card-text d-flex text-cont">
                   <i
@@ -155,7 +164,7 @@ function CardShow() {
 
                 {/* <i className="bi bi-x"></i> */}
                 {/* <MDBIcon fas icon="times" size="sm 2x lg" /> */}
-                 {/* <p className="card-text d-inline-block align-items-center justify-content-center m-auto"> <MDBIcon fas icon="times" size="sm" /><p>{el.t6}</p>  </p> */}
+                 {/* <p className="card-text d-inline-flex align-items-center justify-content-center m-auto"> <MDBIcon fas icon="times" size="sm" /><p>{el.t6}</p>  </p> */}
                 <button className="btn btn-primary w-80 but">BUTTON</button>
               </div>
             </div>
